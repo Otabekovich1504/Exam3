@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  color: inherit;
+  text-decoration: none;
+}
+header {
+  background-color: #014e56;
+  margin: 0 auto;
+  color: white;
+}
+.btn {
+  width: 153px;
+  height: 48px;
+  border-radius: 24px;
+  border: 2px solid #fff;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav1 {
+  margin-right: 165px;
+  margin-top: 73px;
+  display: flex;
+}
+.imgmyteam {
+  margin-left: 166px;
+  margin-top: 77px;
+}
+ul {
+  display: flex;
+  gap: 40px;
+  margin-right: 56px;
+  margin-top: 10px;
+}
+.nav1 button {
+  background-color: transparent;
+}
+.nav1 button:hover {
+  background-color: white;
+  color: black;
+}
+.h1andp h1 {
+  color: #fff;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+}
+.h1andp {
+  margin-left: 165px;
+  margin-top: 120px;
+  display: flex;
+  gap: 60px;
+}
+.h1andp p {
+  color: #fff;
+  width: 730px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+.section {
+  background-color: #004047;
+  height: 646px;
+}
+.xt {
+  display: flex;
+  gap: 30px;
+  margin-left: 167px;
+  margin-top: 70px;
+}
+.section h1 {
+  color: #fff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100px;
+  text-align: center;
+}
+.torburchak {
+  background: #012f34;
+  width: 350px;
+  height: 274.726px;
+}
+.torburchak img {
+  margin-top: 44px;
+  margin-left: 127px;
+}
+.torburchak h3 {
+  color: #79c8c7;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  margin-top: 23.29px;
+}
+.torburchak p {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 25px;
+}
+.torburchak button {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
+  background-color: #f67e7e;
+  margin-left: 147px;
+  margin-top: 20px;
+}
+.torburchak1 {
+  background: #012f34;
+  width: 350px;
+  height: 274.726px;
+}
+.torburchak1 img {
+  margin-top: 44px;
+  margin-left: 127px;
+}
+.torburchak1 h3 {
+  color: #79c8c7;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  margin-top: 23.29px;
+}
+.torburchak1 p {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 25px;
+}
+.torburchak1 button {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
+  background-color: #f67e7e;
+  margin-left: 147px;
+  margin-top: 20px;
+}
+.section1 {
+  background: #012f34;
+}
+.section1 h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  padding-top: 114px;
+}
+.images {
+  display: flex;
+  gap: 79px;
+  margin-left: 165px;
+  margin-top: 56px;
+  padding-bottom: 123px;
+}
+.section2 {
+  background: #f67e7e;
+  display: flex;
+  padding-left: 263px;
+  gap: 260px;
+  padding-top: 72px;
+  padding-bottom: 72px;
+}
+.section2 h3 {
+  color: #012f34;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+}
+.section2 button {
+  background-color: transparent;
+  width: 153px;
+  height: 48px;
+  border-radius: 24px;
+  border: 2px solid black;
+}
+.section2 button:hover {
+  background-color: #012f34;
+  color: white;
+  border: none;
+}
+footer {
+  background: #012f34;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 48px;
+}
+.img {
+  width: 104px;
+  height: 24px;
+  margin-right: 171px;
+}
+.img1 {
+  margin-left: 159px;
+}
+@media (max-width: 760px) {
+  .nav {
+    display: flex;
+    gap: 217px;
+  }
+  .btn {
+    width: 153px;
+    height: 48px;
+  }
+  .imgmyteam {
+    margin-left: 182px;
+    position: relative;
+    z-index: 2;
+  }
+  .h1andp {
+    display: flex;
+    flex-direction: column;
+  }
+  .h1andp p {
+    width: 457px;
+  }
+  .h1andp h1 {
+    margin-left: 130px;
+  }
+  .torburchak {
+    width: 281px;
+    height: 253px;
+  }
+  .torburchak img {
+    margin-left: 89px;
+  }
+  .torburchak button {
+    margin-left: 108px;
+    margin-top: 2px;
+  }
+  .xt {
+    margin-left: 90px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .torburchak1 {
+    margin-left: 146px;
+    width: 281px;
+    margin-top: 46px;
+    height: 253px;
+  }
+  .torburchak1 img {
+    margin-left: 89px;
+  }
+  .torburchak1 button {
+    margin-left: 108px;
+    margin-top: 2px;
+  }
+  .section {
+    height: 1219px;
+  }
+  .section1 {
+    background-color: transparent;
+    margin-top: -390px;
+  }
+  .images {
+    margin-left: 0;
+    gap: 49px;
+    display: flex;
+    margin-left: 35px;
+  }
+  .section2 h3 {
+    width: 528px;
+    height: 32px;
+    margin-left: -219px;
+  }
+  .section2 {
+    gap: 0;
+  }
+  footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 320px) {
+  .nav {
+    display: none;
+  }
+  .imgmyteam {
+    margin-left: -100px;
+  }
+  .h1andp {
+    padding-top: 100px;
+    margin-top: 0;
+  }
+  .imgmyteam img{
+    position: relative;
+    z-index: 33333333;
+  }
+}
